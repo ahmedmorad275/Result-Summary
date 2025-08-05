@@ -174,12 +174,6 @@ body {
 .link:visited {
     color: white;
 }
-/* .summary {
-    border-radius: 6px;
-    background-color: rgb(70, 134, 190);
-    width: 50%;
-    padding-top: 1.8rem;
-} */
 
 .link:hover {
     background-color: hsl(224, 30%, 35%);
