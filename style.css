@@ -179,3 +179,22 @@ body {
     background-color: hsl(224, 30%, 35%);
     cursor: pointer;
 }
+
+@media only screen and (max-width: 804px) {
+    .container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 4rem;
+    border-radius: 20px;
+    /* padding: 3rem; */
+}
+.result, .summary {
+    width: 100%;
+}
+.text {
+    width: 70%;
+    line-height: 1.8;
+    padding-bottom: 20px;
+}
+}
