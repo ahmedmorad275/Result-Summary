@@ -9,20 +9,24 @@
 body {
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 18px;
+    background-color: hsla(241, 100%, 89%, 0.34);
 }
 
 .parent {
-    width: 1440px;
-    margin: auto;
+    max-width: 1440px;
+    width: 100%;
+    margin: 3rem auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .container {
+    background-color: white;
     display: flex;
     margin: 4rem;
-    padding: 3rem;
+    border-radius: 20px;
+    /* padding: 3rem; */
 }
 
 .result {
